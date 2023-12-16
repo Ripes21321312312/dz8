@@ -1,0 +1,59 @@
+@media screen and (max-width: 1300px)
+{
+
+  .page1
+  {
+    height: 100vh;
+  }
+
+   .blocks
+   {
+     display: flex;
+     flex-direction: column;
+   }
+
+  .rec1
+  {
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 1% ;
+    margin-top: 1%;
+
+
+  }
+  .rec2
+  {
+    flex-wrap: wrap;
+    margin-left: 50% ;
+    margin-top: -20%;
+  }
+   .rec3
+   {
+     flex-wrap: wrap;
+     margin-top: 50px;
+
+   }
+
+   .rec4
+   {
+     flex-wrap: wrap;
+     margin-left: 50% ;
+     margin-top: -20%;
+     margin-bottom: 200px;
+   }
+  .text
+  {
+
+  }
+
+  .page2
+  {
+
+  }
+
+
+  .block_ellipse{
+
+  }
+
+}
