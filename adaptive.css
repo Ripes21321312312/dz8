@@ -1,44 +1,48 @@
-@media screen and (max-width: 1300px)
+@media screen and (max-width: 1200px)
 {
 
   .page1
   {
-    height: 100vh;
+    height: 1000px;
   }
 
    .blocks
    {
      display: flex;
      flex-direction: column;
+     justify-content: center;
+
    }
 
   .rec1
   {
+
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: 1% ;
-    margin-top: 1%;
+    margin-left:150px ;
+    margin-top: 50px;
 
 
   }
   .rec2
   {
     flex-wrap: wrap;
-    margin-left: 50% ;
-    margin-top: -20%;
+    margin-left: 650px ;
+    margin-top: -200px;
   }
    .rec3
    {
      flex-wrap: wrap;
      margin-top: 50px;
+     margin-left: 150px ;
 
    }
 
    .rec4
    {
      flex-wrap: wrap;
-     margin-left: 50% ;
-     margin-top: -20%;
+     margin-left: 650px ;
+     margin-top: -200px;
      margin-bottom: 200px;
    }
   .text
@@ -48,12 +52,49 @@
 
   .page2
   {
-
+    margin-bottom: 500px;
+    height: 400px;
   }
 
 
   .block_ellipse{
 
+  }
+
+}
+@media  screen and (min-device-width: 0px) and (max-device-width: 800px) and (orientation: landscape)
+{
+  .blocks
+  {
+    .blocks
+    {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .rec1
+    {
+      width: 25%;
+      margin-left: 250px;
+    }
+    .rec2
+    {
+
+      width: 25%;
+      margin-left: 500px;
+
+    }
+    .rec3
+    {
+      margin-left: 250px;
+      width: 25%;
+    }
+    .rec4
+    {
+      width: 25%;
+      margin-left: 500px;
+    }
   }
 
 }
